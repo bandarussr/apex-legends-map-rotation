@@ -1,0 +1,56 @@
+/////////////////// FOR SEASON 18 ////////////////////
+
+PlaylistRotation    // must be specified after playlists are specified
+    {
+        rotationStartTime
+        {
+            start  "2023-08-08 10:00:00 -07:00"
+        }
+
+        rotation
+        {
+            moon_rotation               90
+            kings_canyon_rotation       90
+            olympus_rotation            90
+            moon_rotation               60
+            kings_canyon_rotation       60
+            olympus_rotation            60
+        }
+    }
+
+    PlaylistRotation ranked
+    {
+        rotationStartTime
+        {
+            start  "2023-08-08 10:00:00 -07:00"
+        }
+
+        rotation
+        {
+            moon_ranked                 1440 // 24hrs
+            can_ranked         			1440
+            olympus_ranked              1440
+        }
+    }
+
+     PlaylistRotation mixtape
+    {
+        rotationStartTime
+        {
+            start  "2023-08-08 10:00:00 -07:00"
+        }
+
+        rotation
+        {
+			freedm_tdm_the_core                 15
+			freedm_gungame_estates              15
+			control_canyonlands_caustic         15
+			freedm_tdm_phase_runner             15
+			freedm_gungame_fragment             15
+			control_divided_moon_production     15
+			freedm_tdm_skulltown                15
+			freedm_gungame_the_core             15
+			control_olympus_labs                15
+
+        }
+    }
